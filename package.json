@@ -1,0 +1,17 @@
+{
+  "name": "miniapp-wx-promise",
+  "version": "1.0.0",
+  "description": "微信小程序异步 API 的 promise 集成",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowke/miniapp-wx-promise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowke/miniapp-wx-promise/issues"
+  },
+  "homepage": "https://github.com/flowke/miniapp-wx-promise"
+}
