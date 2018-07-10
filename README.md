@@ -2,7 +2,7 @@
 
 微信小程序异步 API 的 promise 集成, 在运行时会注册微信小程序的异步 api 接口.
 
-> 注: 如果您的运行环境不支持 Promise, 您应该自己对 Promise 进行 Polyfill
+> 注: 如果您的运行环境不支持 Promise, 您应该自己对 Promise 进行 Polyfill
 
 ## 使用方式
 
@@ -52,11 +52,11 @@ awx.request({
 
 基于这些规律, 我们会在引入库的时候统一注册所有的异步回调接口. 在 sucess 的时候 resolve, 在 fail 的时候 reject.
 
-> 注: 如果需要使用 complete, 您可以在 finally 中实现. 但请注意 Polyfill.
+> 注: 如果需要使用 complete, 您可以在 finally 中实现. 但请注意 Polyfill.
 
 ## 注意事项
 
-某些接口并不是异步接口, 例如:
+某些接口并不是异步接口, 例如:
 
 ```JavaScript
 wx.setStorageSync(KEY,DATA);
@@ -64,4 +64,4 @@ wx.setStorageSync(KEY,DATA);
 
 对于这一类接口您应该直接直接从 `wx` 中调用. `awx` 并不会对这一类接口进行 Promise 化.
 
-在未来我们可能会让这一类接口进行 Promise 化.
+在未来我们可能会让这一类接口进行 Promise 化.
