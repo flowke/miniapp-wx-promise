@@ -7,7 +7,12 @@
     "type": "git",
     "url": "https://github.com/flowke/miniapp-wx-promise.git"
   },
-  "keywords": [],
+  "keywords": [
+    "wx",
+    "miniapp",
+    "async api",
+    "promise"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {

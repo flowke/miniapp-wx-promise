@@ -26,12 +26,12 @@ wx.request({
 **Promise 集成后的使用**
 
 ```javascript
-// 首先应该引入次库, 假设把词库放在 lib/apis.js 下
+// 首先应该引入此库, 假设把此库放在 lib/apis.js 下
 const awx = require('./lib/apis.js');
 
 // 依然传入一个对象作为参数, 方式和原来一样
 // 但无需传入 success 或 fali 回调
-// 接口会返还一个 promise
+// 接口会返回一个 promise
 // 请求成功会 resolve
 // 请求失败会 reject
 awx.request({
